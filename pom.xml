@@ -46,7 +46,7 @@
         <dependency>
             <groupId>minevalley.smart</groupId>
             <artifactId>api</artifactId>
-            <version>1.16</version>
+            <version>1.39</version>
             <!-- Don't use LATEST here -->
         </dependency>
         <dependency>
