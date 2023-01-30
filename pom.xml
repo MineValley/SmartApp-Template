@@ -21,6 +21,10 @@
             <id>paper</id>
             <url>https://papermc.io/repo/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <build>
@@ -44,9 +48,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>minevalley.smart</groupId>
-            <artifactId>api</artifactId>
-            <version>1.39</version>
+            <groupId>com.github.MineValley</groupId>
+            <artifactId>SmartAPI</artifactId>
+            <version>1.45</version>
             <!-- Don't use LATEST here -->
         </dependency>
         <dependency>
