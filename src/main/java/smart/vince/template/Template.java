@@ -4,11 +4,11 @@ import minevalley.smart.api.*;
 import smart.vince.template.module.listeners.PlayerInteractListener;
 
 @Description(
-        name = "Template",
+        name = "§7Template",
         authors = "vince",
         version = "1.0",
-        iconHead = "e5bf4db51fab4aa279628dfb2a1720e01bf7e9b94bb8c7e702fb63757405d"
-)
+        iconHead = "e5bf4db51fab4aa279628dfb2a1720e01bf7e9b94bb8c7e702fb63757405d",
+        systemName = "TEMPLATE")
 public final class Template extends SmartApp {
 
     public Template(SmartServer server) {
