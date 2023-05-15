@@ -8,7 +8,8 @@ import smart.vince.template.module.listeners.PlayerInteractListener;
         authors = "vince",
         version = "1.0",
         iconHead = "e5bf4db51fab4aa279628dfb2a1720e01bf7e9b94bb8c7e702fb63757405d",
-        systemName = "TEMPLATE")
+        systemName = "TEMPLATE"
+)
 public final class Template extends SmartApp {
 
     public Template(SmartServer server) {
