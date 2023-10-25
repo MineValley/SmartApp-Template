@@ -4,17 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>smart.vince</groupId>
-    <artifactId>template</artifactId>
+    <properties>
+        <app.name>template</app.name>
+        <app.author>vince</app.author>
+        <app.version>1.0</app.version>
+
+        <api.version>1.48</api.version>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <groupId>smart.${app.author}</groupId>
+    <artifactId>${app.name}</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>Template</name>
-
-    <properties>
-        <java.version>1.8</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <repositories>
         <repository>
@@ -50,7 +55,7 @@
         <dependency>
             <groupId>com.github.MineValley</groupId>
             <artifactId>SmartAPI</artifactId>
-            <version>1.45</version>
+            <version>${api.version}</version>
             <!-- Don't use LATEST here -->
         </dependency>
         <dependency>
